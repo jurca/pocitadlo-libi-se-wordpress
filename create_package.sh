@@ -13,7 +13,7 @@ cp \
 
 cp \
   index.php \
-  LICENCE \
+  LICENSE \
   pocitadlo-libi-se.php \
   pocitadlo-libi-se\
 
