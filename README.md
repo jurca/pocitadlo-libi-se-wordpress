@@ -5,8 +5,8 @@ Plugin pro snadnou integraci sociálního tlačítka Líbí se od Seznam.cz.
 ## Instalace
 
 Tento plugin vyžaduje ruční instalaci skrz administraci WordPressu. Najdřív si
-[stáhněte](/seznam/pocitadlo-libi-se-wordpress/releases) nejnovější verzi
-pluginu jako `zip` balíček.
+[stáhněte](https://github.com/jurca/pocitadlo-libi-se-wordpress/releases)
+nejnovější verzi pluginu jako `zip` balíček.
 
 V administraci své WordPress webové stránky otevřte menu **Pluginy**, násleně
 v pod-menu zvolte **Instalace pluginů**.
