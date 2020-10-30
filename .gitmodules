@@ -1,0 +1,3 @@
+[submodule "pocitadlo-libi-se-common"]
+	path = pocitadlo-libi-se-common
+	url = https://github.com/seznam/pocitadlo-libi-se-common.git
