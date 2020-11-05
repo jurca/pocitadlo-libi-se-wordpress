@@ -14,6 +14,7 @@ cp \
 cp \
   index.php \
   LICENSE \
+  README.md \
   pocitadlo-libi-se.php \
   pocitadlo-libi-se\
 
