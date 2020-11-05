@@ -13,3 +13,8 @@ v pod-menu zvolte **Instalace pluginů**.
 
 Vedle nadpisu klepněte na tlačítko **Nahrát plugin**, vyberte stažený `zip`
 balíček a klepněte na tlačítko **Instalovat**.
+
+## Požadavky
+
+Rozšíření je určeno pro WordPress 5.0 a novější a PHP 7.2 a novější.
+Kompatibilita se staršími verzemi nebyla testována a není zaručena.
