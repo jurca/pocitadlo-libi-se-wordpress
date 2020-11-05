@@ -4,7 +4,7 @@
  * Plugin URI: https://www.seznam.cz/
  * Description: Integrace sociálního tlačítka Líbí se od Seznam.cz.
  * Version: 1.0.0
- * Requires at least: 5.0
+ * Requires at least: 4.8
  * Requires PHP: 7.0
  * Author: Seznam.cz
  * Author URI: https://www.seznam.cz/
