@@ -79,9 +79,9 @@ add_action( 'wp_head', function () {
         $socialButton = renderButton(
           array_merge(
             $buttonOptions,
-            [ ButtonElementAttributeName::ANALYTICS_HIT_BUTTON_POSITION => ButtonPosition::CONTENT_START ],
+            [ ButtonElementAttributeName::ANALYTICS_HIT_BUTTON_POSITION => ButtonPosition::CONTENT_START ]
           ),
-          $PLACEHOLDER,
+          $PLACEHOLDER
         );
         $content = "<div class=\"seznam-pocitadlo-libi-se\">$socialButton</div>\n$content";
       }
@@ -92,9 +92,9 @@ add_action( 'wp_head', function () {
         $socialButton = renderButton(
           array_merge(
             $buttonOptions,
-            [ ButtonElementAttributeName::ANALYTICS_HIT_BUTTON_POSITION => ButtonPosition::CONTENT_END ],
+            [ ButtonElementAttributeName::ANALYTICS_HIT_BUTTON_POSITION => ButtonPosition::CONTENT_END ]
           ),
-          $PLACEHOLDER,
+          $PLACEHOLDER
         );
         $content = "$content\n<div class=\"seznam-pocitadlo-libi-se\">$socialButton</div>";
       }
@@ -119,7 +119,7 @@ add_action( 'wp_head', function () {
         'cz_seznam_pocitadlolibise_messages',
         'cz_seznam_pocitadlolibise_message',
         'Nastavení bylo uloženo.',
-        'success',
+        'success'
       );
     }
 
@@ -195,7 +195,7 @@ add_action( 'wp_head', function () {
       $SETTINGS_SECTION,
       'Nastavení vzhledu',
       $settings_section_header,
-      $PAGE_ID,
+      $PAGE_ID
     );
 
     $szn_add_settings_field = function ($name, $label, $callback, $options) use ($PAGE_ID, $SETTINGS_SECTION) {
@@ -209,8 +209,8 @@ add_action( 'wp_head', function () {
           [
             'label_for' => $name,
           ],
-          $options,
-        ),
+          $options
+        )
       );
     };
     
@@ -232,7 +232,7 @@ add_action( 'wp_head', function () {
         ButtonLayout::SEAMLESS => 'Obarvitelná',
         ButtonLayout::BUTTON_COUNT => 'Tlačítko',
         ButtonLayout::BOX_COUNT => 'Box',
-      ],
+      ]
     );
 
     $szn_add_settings_select(
@@ -242,7 +242,7 @@ add_action( 'wp_head', function () {
         ButtonSize::MINIMALISTIC => 'Minimalistická (pouze obarvitelný vzhled)',
         ButtonSize::SMALL => 'Malá',
         ButtonSize::LARGE => 'Velká (nepodporuje obarvitelný vzhled)',
-      ],
+      ]
     );
 
     $szn_add_settings_select(
@@ -252,7 +252,7 @@ add_action( 'wp_head', function () {
         ButtonPosition::CONTENT_START => 'Začátek příspěvku',
         ButtonPosition::CONTENT_END => 'Konec příspěvku',
         ButtonPosition::CONTENT_START_AND_END => 'Začátek i konec příspěvku',
-      ],
+      ]
     );
 
     $szn_add_settings_input(ButtonColorVariable::PRIMARY_COLOR, 'Základní barva textu', 'color');
@@ -270,7 +270,7 @@ add_action( 'wp_head', function () {
       'Počítadlo Líbí se',
       'manage_options',
       $PAGE_ID,
-      $settings_page,
+      $settings_page
     );
   } );
 
