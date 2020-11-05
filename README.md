@@ -16,5 +16,5 @@ balíček a klepněte na tlačítko **Instalovat**.
 
 ## Požadavky
 
-Rozšíření je určeno pro WordPress 4.8 a novější a PHP 7.0 a novější.
+Rozšíření je určeno pro WordPress 4.7 a novější a PHP 7.0 a novější.
 Kompatibilita se staršími verzemi nebyla testována a není zaručena.
